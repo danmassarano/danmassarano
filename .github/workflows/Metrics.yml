@@ -13,12 +13,12 @@ jobs:
         with:
             token: ${{ secrets.METRICS_TOKEN }}
             base: header
-            plugin_isocalendar: yes
             plugin_languages: yes
             plugin_topics: yes
             plugin_topics_limit: 0
             plugin_topics_mode: icons
-            plugin_activity: yes
-            plugin_activity_limit: 5
-            plugin_activity_days: 0
-            config_order: base.header, isocalendar, languages, topics, activity
+            plugin_pagespeed: yes
+            plugin_pagespeed_detailed: yes
+            plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+            plugin_pagespeed_url: https://danmassarano.com
+            config_order: base.header, languages, topics, pagespeed
