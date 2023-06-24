@@ -15,7 +15,7 @@ jobs:
             base: header
             plugin_isocalendar: yes
             plugin_languages: yes
-            plugin_stars: yes
-            plugin_lines: yes
-            plugin_lines_sections: repositories, history
-            config_order: base.header, isocalendar, languages, stars, lines
+            plugin_topics: yes
+            plugin_topics_limit: 0
+            plugin_topics_mode: icons
+            config_order: base.header, isocalendar, languages, topics
