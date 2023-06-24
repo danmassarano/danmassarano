@@ -18,4 +18,7 @@ jobs:
             plugin_topics: yes
             plugin_topics_limit: 0
             plugin_topics_mode: icons
-            config_order: base.header, isocalendar, languages, topics
+            plugin_activity: yes
+            plugin_activity_limit: 5
+            plugin_activity_days: 0
+            config_order: base.header, isocalendar, languages, topics, activity
