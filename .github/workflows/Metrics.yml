@@ -17,8 +17,4 @@ jobs:
             plugin_topics: yes
             plugin_topics_limit: 0
             plugin_topics_mode: icons
-            plugin_pagespeed: yes
-            plugin_pagespeed_detailed: yes
-            plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-            plugin_pagespeed_url: https://danmassarano.com
-            config_order: base.header, languages, topics, pagespeed
+            config_order: base.header, languages, topics
